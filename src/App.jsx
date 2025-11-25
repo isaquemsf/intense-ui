@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Magazine from './pages/Magazine';
 
 const AppContainer = styled.div`
   min-height: 100%;
@@ -31,6 +32,7 @@ function App() {
       <MainLayout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/revista-digital" element={<Magazine />} />
           <Route path="/sobre" element={<About />} />
           <Route path="/contato" element={<Contact />} />
         </Routes>

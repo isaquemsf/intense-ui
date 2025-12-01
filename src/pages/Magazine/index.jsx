@@ -43,7 +43,7 @@ const MagazineDescription = styled.p`
 
 const Magazine = () => {
     const launchDate = new Date('2025-12-04T00:00:00');
-    const driveLink = "https://drive.google.com/file/d/1cdo5Reus7CX1-c4w4KsZ_V6xeA4paFXt/view?usp=sharing";
+    const driveLink = "https://drive.google.com/file/d/1VRYmQIX5Adx2vTAKYmOENDG-ZP83aaE6/view?usp=sharing";
 
     const handleDownloadClick = (event) => {
         const currentDate = new Date();
